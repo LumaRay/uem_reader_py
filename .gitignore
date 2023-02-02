@@ -1,0 +1,8 @@
+./.git
+./.vscode
+./.dist
+./target
+./.env
+./.hypothesis
+./python/uem_reader_py/__pycache__
+./python/uem_reader_py/*.so
