@@ -2,7 +2,6 @@
 
 This is a Python binding for [MicroEM](https://microem.ru/) reader support [crate in Rust](https://crates.io/crates/uem-reader).
 
-
 ## Note on using libusb
 
 On Linux you need to add write permissions to the device you want to use, e.g.:
@@ -13,8 +12,9 @@ sudo chmod o+w /dev/bus/usb/002/008
 
 To work with Windows you need to [install libusb driver](https://github.com/libusb/libusb/wiki/Windows#how-to-use-libusb-on-windows) for a reader.
 
-
 ## Usage
+
+You can find module sources on [GitHub](https://github.com/LumaRay/uem_reader_py).
 
 ```python
 import uem_reader_py
@@ -26,7 +26,6 @@ print(rdrs[0].send([0x22]))  # Get Serial
 rdrs[0].send([0x05, 0x03])  # Beep 3 times
 rdrs[0].close()
 ```
-
 
 ## Module development process
 
