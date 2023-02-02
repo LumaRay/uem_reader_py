@@ -1,6 +1,6 @@
 # Python binding to Rust uem_reader crate
 
-This is a Python binding for [MicroEM reader support crate in Rust](https://crates.io/crates/uem-reader).
+This is a Python binding for [MicroEM](https://microem.ru/) reader support [crate in Rust](https://crates.io/crates/uem-reader).
 
 
 ## Note on using libusb
